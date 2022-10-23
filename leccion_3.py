@@ -1,0 +1,6 @@
+print('Escribe 2 palabras: ')
+word_1 = input('Introduce la primera palabra: ')
+word_2 = input('Introduce una segunda palabra: ')
+result = print(f'Resultado: {word_1} {word_2}')
+print('La longitud de las palabras introducidas es: ')
+print(len(word_1 + word_2))
